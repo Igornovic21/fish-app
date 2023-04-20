@@ -70,14 +70,14 @@ export function Navbar({ brandName, routes, action }) {
         </Link>
         <div className="hidden lg:block">{navList}</div>
         <div className="hidden gap-2 lg:flex">
-          <a
+          {/* <a
             href="https://www.material-tailwind.com/blocks?ref=mtkr"
             target="_blank"
           >
             <Button variant="text" size="sm" color="white" fullWidth>
               pro version
             </Button>
-          </a>
+          </a> */}
           {React.cloneElement(action, {
             className: "hidden lg:inline-block",
           })}
@@ -102,7 +102,7 @@ export function Navbar({ brandName, routes, action }) {
       >
         <div className="container mx-auto">
           {navList}
-          <a
+          {/* <a
             href="https://www.material-tailwind.com/blocks/react?ref=mtkr"
             target="_blank"
             className="mb-2 block"
@@ -110,7 +110,7 @@ export function Navbar({ brandName, routes, action }) {
             <Button variant="text" size="sm" fullWidth>
               pro version
             </Button>
-          </a>
+          </a> */}
           {React.cloneElement(action, {
             className: "w-full block",
           })}
@@ -121,14 +121,14 @@ export function Navbar({ brandName, routes, action }) {
 }
 
 Navbar.defaultProps = {
-  brandName: "Material Tailwind React",
+  brandName: "Fish Place",
   action: (
     <a
-      href="https://www.creative-tim.com/product/material-tailwind-kit-react"
+      href="https://wa.me/+237695668185?text=Hi,%20I'm%20interested%20in%20your%20fish%20for%20sale"
       target="_blank"
     >
-      <Button variant="gradient" size="sm" fullWidth>
-        free download
+      <Button variant="gradient" size="lg" fullWidth>
+        demander une livraison
       </Button>
     </a>
   ),
