@@ -41,13 +41,12 @@ export function SimpleFooter({ brandName, brandLink, routes }) {
 }
 
 SimpleFooter.defaultProps = {
-  brandName: "Creative Tim",
-  brandLink: "https://www.creative-tim.com",
+  brandName: "Igornovic",
+  brandLink: "https://kamgueigor-portfolio.web.app/",
   routes: [
-    { name: "Creative Tim", path: "https://www.creative-tim.com" },
-    { name: "About Us", path: "https://www.creative-tim.com/presentation" },
-    { name: "Blog", path: "https://www.creative-tim.com/blog" },
-    { name: "License", path: "https://www.creative-tim.com/license" },
+    { name: "Accueil", path: "https://www.creative-tim.com/presentation" },
+    { name: "A propos", path: "https://www.creative-tim.com/presentation" },
+    { name: "Contactez-nous", path: "https://www.creative-tim.com/presentation" },
   ],
 };
 

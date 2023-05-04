@@ -78,20 +78,19 @@ export function Home() {
                 Travailler avec vous est un plaisir
               </Typography>
               <Typography className="mb-8 font-normal text-blue-gray-500">
-                Don't let your uses guess by attaching tooltips and popoves to
-                any element. Just make sure you enable them first via
-                JavaScript.
+                Nous assurons une production mensuelle de plus 1000 individu.
+                L'élevage se fait dans des bassins naturel dans des eaux saines
+                continuellement filtrées et épurées.
                 <br />
                 <br />
-                The kit comes with three pre-built pages to help you get started
-                faster. You can change the text and images and you're good to
-                go. Just make sure you enable them first via JavaScript.
+                Afin d'assurer leur croissance, nous les nourrisont avec des aliments
+                riches en protéines, vitamines et en minéraux
               </Typography>
               <a
-                href="https://www.lanouvellerepublique.fr/vienne/le-silure-poisson-de-tous-les-records"
+                href="https://wa.me/+237670269063?text=Hi,%20I'm%20interested%20in%20your%20fish%20for%20sale"
                 target="_blank"
                 rel="noopener noreferrer">
-                <Button variant="outlined">read more</Button>
+                <Button variant="outlined">Commander Maintenant</Button>
               </a>
             </div>
             <div className="mx-auto mt-24 flex w-full justify-center px-4 md:w-4/12 lg:mt-0">
@@ -122,7 +121,7 @@ export function Home() {
         </div>
       </section>
 
-      <section className="px-4 pt-20 pb-48">
+      {/* <section className="px-4 pt-20 pb-48">
         <div className="container mx-auto">
           <PageTitle heading="Here are our heroes">
             According to the National Oceanic and Atmospheric Administration,
@@ -149,7 +148,7 @@ export function Home() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
       
       <section className="relative bg-blue-gray-50/50 py-24 px-4">
         <div className="container mx-auto">
@@ -158,7 +157,7 @@ export function Home() {
             tous directement sélectionnés par nos experts pour en assurer la qualité et la fraîcheur,
             nous assurons pour le moment la production de la silure élevé en milieu naturel
           </PageTitle>
-          <div className="mx-auto mt-20 mb-48 grid max-w-5xl grid-cols-1 gap-16 md:grid-cols-2 lg:grid-cols-3">
+          <div className="mx-auto mt-20 grid max-w-5xl grid-cols-1 gap-16 md:grid-cols-2 lg:grid-cols-3">
             {contactData.map(({ title, icon, description }) => (
               <Card
                 key={title}
@@ -180,7 +179,7 @@ export function Home() {
               </Card>
             ))}
           </div>
-          <PageTitle heading="Want to work with us?">
+          {/* <PageTitle heading="Want to work with us?">
             Complete this form and we will get back to you in 24 hours.
           </PageTitle>
           <form className="mx-auto mt-12 max-w-3xl text-center">
@@ -192,7 +191,7 @@ export function Home() {
             <Button variant="gradient" size="lg" className="mt-8">
               Send Message
             </Button>
-          </form>
+          </form> */}
         </div>
       </section>
       <div className="bg-blue-gray-50/50">

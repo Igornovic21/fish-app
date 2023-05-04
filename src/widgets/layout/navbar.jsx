@@ -124,7 +124,7 @@ Navbar.defaultProps = {
   brandName: "FISH-THUIX",
   action: (
     <a
-      href="https://wa.me/+237695668185?text=Hi,%20I'm%20interested%20in%20your%20fish%20for%20sale"
+      href="https://wa.me/+237670269063?text=Hi,%20I'm%20interested%20in%20your%20fish%20for%20sale"
       target="_blank"
     >
       <Button variant="gradient" size="lg" fullWidth>

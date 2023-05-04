@@ -15,18 +15,18 @@ export const routes = [
     path: "/",
     element: <Home />,
   },
-  {
-    icon: InformationCircleIcon,
-    name: "à propos",
-    path: "/profile",
-    element: <Profile />,
-  },
-  {
-    icon: PhoneIcon,
-    name: "contactez-nous",
-    path: "/sign-in",
-    element: <SignIn />,
-  },
+  // {
+  //   icon: InformationCircleIcon,
+  //   name: "à propos",
+  //   path: "/profile",
+  //   element: <Profile />,
+  // },
+  // {
+  //   icon: PhoneIcon,
+  //   name: "contactez-nous",
+  //   path: "/sign-in",
+  //   element: <SignIn />,
+  // },
   // {
   //   icon: UserCircleIcon,
   //   name: "sign in",

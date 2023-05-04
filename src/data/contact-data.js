@@ -9,19 +9,19 @@ export const contactData = [
     title: "Service Excellent",
     icon: StarIcon,
     description:
-      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "Des produits de qualité en taille ou en poids sont produits pour une bonne consommation sur le marché",
   },
   {
     title: "Développez votre marché",
     icon: PresentationChartLineIcon,
     description:
-      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "Vous êtes un grossiste? Vous pouvez vous approsionner chez afin d'assurer votre sytème de distribution",
   },
   {
     title: "Gagnez du temps",
     icon: RocketLaunchIcon,
     description:
-      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "Notre système de livraison vous assure une disponibilité continue de nos services à un moindre effort",
   },
 ];
 
