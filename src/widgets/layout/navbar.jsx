@@ -121,7 +121,7 @@ export function Navbar({ brandName, routes, action }) {
 }
 
 Navbar.defaultProps = {
-  brandName: "Fish Place",
+  brandName: "FISH-THUIX",
   action: (
     <a
       href="https://wa.me/+237695668185?text=Hi,%20I'm%20interested%20in%20your%20fish%20for%20sale"

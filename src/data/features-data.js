@@ -1,30 +1,30 @@
 import {
-  StarIcon,
-  ArrowPathIcon,
-  FingerPrintIcon,
+  ArrowTrendingUpIcon,
+  SunIcon,
+  TruckIcon
 } from "@heroicons/react/24/solid";
 
 export const featuresData = [
   {
-    color: "blue",
-    title: "Awarded Agency",
-    icon: StarIcon,
+    color: "orange",
+    title: "Disponibilité",
+    icon: SunIcon,
     description:
-      "Divide details about your product or agency work into parts. A paragraph describing a feature will be enough.",
+      "Un point novateur de production de poissons d'eau douce, avec une capacité de production de 1000 tonnes par an.",
   },
   {
-    color: "red",
-    title: "Free Revisions",
-    icon: ArrowPathIcon,
+    color: "blue",
+    title: "Qualité",
+    icon: ArrowTrendingUpIcon,
     description:
-      "Keep you user engaged by providing meaningful information. Remember that by this time, the user is curious.",
+      "Des systèmes sont conçus pour surveiller et contrôler la qualité des poissons produits et les conditions dans lesquelles ils sont élevés.",
   },
   {
     color: "teal",
-    title: "Verified Company",
-    icon: FingerPrintIcon,
+    title: "Livraison",
+    icon: TruckIcon,
     description:
-      "Write a few lines about each one. A paragraph describing a feature will be enough. Keep you user engaged!",
+      "Avec nos livreurs formés, vous pouvez nous faire confiance pour une livraison fiable et rapide, à un prix abordable.",
   },
 ];
 
